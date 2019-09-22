@@ -42,7 +42,7 @@ Component {
                 { Array.from(this.props.value).map((c, i) => <CharacterCard value={c} key={i}
                  activationHandler={this.activationHandler}attempt = {this.state.attempt} />) }
                 <p>{this.state.completed? "SILANNA":""}</p>
-                <p>{this.state.completed? "WINNER":""}</p>
+                <p>{this.state.completed? "!!! WINNER !!!":""}</p>
                            
             </div>
                
